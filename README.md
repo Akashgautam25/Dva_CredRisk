@@ -49,6 +49,31 @@ This project transforms raw loan-level data into actionable financial insights t
 
 ---
 
+## Data Cleaning & Feature Engineering
+
+- Converted interest rate from percentage to numeric format  
+- Created `default_flag` from `loan_status`  
+- Calculated `fico_mid`  
+- Created segmentation buckets: FICO, DTI, Interest Rate  
+- Extracted `issue_year` from issue date  
+- Removed inconsistent or incomplete records  
+
+All transformations were performed using Google Sheets formulas and pivot tables.
+
+---
+
+## Key Insights & Statistics
+
+- Default rate declines as credit quality improves:  
+  - FICO 650–699: ~21% default rate  
+  - FICO 750+: ~6–7% default rate  
+- Loans with interest rates ≥20% show the highest default (~44%), compared to <10% interest  
+- 60-month loans carry higher default risk than 36-month loans  
+- Verified income borrowers have slightly lower default rates than non-verified  
+- Risk concentration is highest in low-FICO, high-interest, long-term loan segments  
+
+---
+
 ## Analytical Focus Areas
 
 1. Default Rate Analysis  
@@ -79,20 +104,7 @@ This project transforms raw loan-level data into actionable financial insights t
 
 ---
 
-## Data Cleaning and Feature Engineering
-
-- Converted interest rate from percentage to numeric format  
-- Created default_flag from loan_status  
-- Calculated fico_mid  
-- Created segmentation buckets (FICO, DTI, Interest Rate)  
-- Extracted issue_year from issue date  
-- Removed inconsistent or incomplete records  
-
-All transformations were performed using Google Sheets formulas and pivot tables.
-
----
-
-## Intended Outcome
+## Dashboard Summaries
 
 The final dashboard provides:
 
@@ -101,6 +113,14 @@ The final dashboard provides:
 - Risk-based pricing insights  
 - Portfolio monitoring framework  
 - Data-backed underwriting recommendations  
+
+**Screenshot Examples** :  
+![Default Rate by Grade]<img width="464" height="298" alt="image" src="https://github.com/user-attachments/assets/9b2fe70a-e933-4790-bb86-09ff9ac0ea55" />
+![Avg Interest Rate by FICO Bucket]<img width="464" height="298" alt="image" src="https://github.com/user-attachments/assets/df9e1edf-1a78-47f2-862f-7a662658dc84" />
+![Risk vs Return (Grade)] <img width="464" height="298" alt="Screenshot 2026-02-18 at 11 01 20 PM" src="https://github.com/user-attachments/assets/517990fd-d9c5-456a-96e4-0605f1c2bdbb" />
+
+
+
 
 ---
 
