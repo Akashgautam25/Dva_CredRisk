@@ -114,14 +114,15 @@ The final dashboard provides:
 - Portfolio monitoring framework  
 - Data-backed underwriting recommendations  
 
-**Screenshot Examples** :  
-![Default Rate by Grade]<img width="464" height="298" alt="image" src="https://github.com/user-attachments/assets/9b2fe70a-e933-4790-bb86-09ff9ac0ea55" />
-![Avg Interest Rate by FICO Bucket]<img width="464" height="298" alt="image" src="https://github.com/user-attachments/assets/df9e1edf-1a78-47f2-862f-7a662658dc84" />
-![Risk vs Return (Grade)] <img width="464" height="298" alt="Screenshot 2026-02-18 at 11 01 20 PM" src="https://github.com/user-attachments/assets/517990fd-d9c5-456a-96e4-0605f1c2bdbb" />
+## Screenshot Examples
 
+<div style="display: flex; gap: 10px;">
+  <img src="https://github.com/user-attachments/assets/9b2fe70a-e933-4790-bb86-09ff9ac0ea55" width="300" />
+  <img src="https://github.com/user-attachments/assets/df9e1edf-1a78-47f2-862f-7a662658dc84" width="300" />
+  <img src="https://github.com/user-attachments/assets/517990fd-d9c5-456a-96e4-0605f1c2bdbb" width="300" />
+</div>
 
-
-
+<img src="https://github.com/user-attachments/assets/b9ec2a33-16dc-44ee-aa88-368397470f4b" width="800" />
 ---
 
 ## Project Status
